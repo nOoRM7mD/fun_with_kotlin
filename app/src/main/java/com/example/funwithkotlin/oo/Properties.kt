@@ -12,11 +12,11 @@ class City {
 }
 
 fun main() {
-    val city = City()
-    city.name = "Egypt"
-    city.name = " "
-    city.population = 100_000_000
+    val eqypt = City()
+    eqypt.name = "Egypt"
+    eqypt.name = " "
+    eqypt.population = 100_000_000
 
-    println(city.name)
-    println(city.population)
+    println(eqypt.name)
+    println(eqypt.population)
 }
