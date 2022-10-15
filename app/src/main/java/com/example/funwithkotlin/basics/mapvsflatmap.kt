@@ -26,7 +26,7 @@ fun main() {
     println("Not flat List sorted $notFlatList ")
 
     val flatTheNotFlattenList = nestedList.map { it.sortedDescending() }.flatten()
-    println("Not flat List sorted $flatTheNotFlattenList ")
+    println("Flatten List sorted $flatTheNotFlattenList ")
 
 
 }
